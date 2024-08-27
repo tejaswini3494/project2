@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Hersteller() {
   return (
-    <div className="flex flex-col  gap-[20px] items-center" >
-      <div className="relative">
+    <div className="flex flex-col  gap-[20px] md:items-center">
+      <div className="flex  gap-10">
         <h3 className="text-[18px] text-[#365758] font-semibold text-center">
           Hersteller
         </h3>
-        <img src="Arrow_down.svg" alt="" className="absolute top-1 right-1 " />
+        <img src="Arrow_down.svg" alt="" className=" " />
       </div>
       <div className="flex flex-col gap-[16px] ">
         <div className="flex gap-[10px] items-center">

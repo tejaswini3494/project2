@@ -20,8 +20,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       
-      <body className={sora.className}>
-        <div className="w-5/6 mx-auto ">
+      <body className={sora.className} >
+        <div className="w-5/6 mx-auto overflow-hidden ">
       {children}
       <HeaderTop/>
       <HeaderMain/>

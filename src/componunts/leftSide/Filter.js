@@ -1,11 +1,14 @@
 "use client";
 import MainA from "./MainA";
 import Hersteller from "./Hersteller";
-import GeneticBestrahltung from "./GeneticBestrahltung";
+
 import Terpene from "./Terpene";
 import { useState } from "react";
 
-export default function MainAA() {
+import Bestrahltung from "./Bestrahltung";
+import Genetic from "./Genetic";
+
+export default function Filter() {
   const [tog, setTog] = useState(false);
 
   return (
@@ -24,17 +27,8 @@ export default function MainAA() {
           <Hersteller />
           <MainA text1="THC Gehalt" text2="11%" text3="18%" />
           <MainA text1="CBD Gehalt" text2="1%" text3="5%" />
-          <GeneticBestrahltung
-            text1="Genetik"
-            text2="Indica"
-            text3="Sativa"
-            text4="Hybrid"
-          />
-          <GeneticBestrahltung
-            text1="Bestrahltung"
-            text2="bestrahlt"
-            text3="nicht bestrahlt"
-          />
+          <Genetic/>
+          <Bestrahltung/>
           <Terpene />
 
           <div className="flex items-center justify-center gap-[4px]">
@@ -50,7 +44,7 @@ export default function MainAA() {
       <div
         className={`md:hidden  flex flex-col gap-[20px] left-0 ${
           tog ? "flex" : "hidden"
-        } w-full  fixed  py-8  top-0 bg-[white]  h-screen overflow-scroll items-center`}
+        }  w-[270px] px-[5px] fixed  py-8  top-0 bg-[white]  h-screen overflow-scroll items-center`}
       >
         <img
           src="Vector2.svg"
@@ -68,17 +62,8 @@ export default function MainAA() {
         <Hersteller />
         <MainA text1="THC Gehalt" text2="11%" text3="18%" />
         <MainA text1="CBD Gehalt" text2="1%" text3="5%" />
-        <GeneticBestrahltung
-          text1="Genetik"
-          text2="Indica"
-          text3="Sativa"
-          text4="Hybrid"
-        />
-        <GeneticBestrahltung
-          text1="Bestrahltung"
-          text2="bestrahlt"
-          text3="nicht bestrahlt"
-        />
+        <Genetic/>
+          <Bestrahltung/>
         <Terpene />
 
         <div className="flex items-center justify-center gap-[4px]">

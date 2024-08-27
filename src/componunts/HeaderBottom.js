@@ -3,7 +3,10 @@ export default function HeaderBottom() {
     <div className="flex  justify-between items-center pt-[20px] flex-wrap">
       <div className="flex gap-[15px] items-center ">
         <img src="Rectangle 1 (2).svg" alt="" className="w-[20px] h-[26px]" />
-        <h2 className="text-[#116A6C] lg:text-[36px]  text-[28px] font-semibold"> Blüten</h2>
+        <h2 className="text-[#116A6C] lg:text-[36px]  text-[28px] font-semibold">
+          {" "}
+          Blüten
+        </h2>
       </div>
 
       <div className=" flex gap-[20px] items-center">

@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function HeaderMain() {
   return (
     <div className="flex items-start justify-between pt-[50px] md:flex-row flex-col gap-[10px] ">
@@ -12,7 +10,10 @@ export default function HeaderMain() {
           Livebestand
         </a>
         <img src="ArrowRight.svg" alt="" />
-        <a href="" className="text-[#045A5C] font-bold md:text-[16px] text-[12px]">
+        <a
+          href=""
+          className="text-[#045A5C] font-bold md:text-[16px] text-[12px]"
+        >
           Cannabis Blüten
         </a>
       </div>

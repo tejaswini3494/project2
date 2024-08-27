@@ -1,16 +1,16 @@
 export default function Footer() {
     return (
-      <div className="bg-[#1A8D91] rounded-xl rounded-b-none mt-[50px] p-[50px]">
-        <div className="w-[1300px] mx-auto flex justify-between md:flex-row flex-col gap-[20px]">
+      <div className="bg-[rgb(26,141,145)] rounded-xl rounded-b-none mt-[50px] p-[16px]">
+        <div className="py-[20px] px-[30px] mx-auto flex justify-between xl:flex-row flex-col gap-[20px] flex-wrap">
           {/* Section 1 */}
-          <div>
+          <div className="">
             <p className="text-[#FFFFFF] text-[12px] font-light">AGB</p>
             <p className="text-[#FFFFFF] text-[12px] font-light">Impressum</p>
             <p className="text-[#FFFFFF] text-[12px] font-light">Datenschutz</p>
           </div>
   
           {/* Section 2 */}
-          <div className="flex flex-col flex-wrap">
+          <div className="flex flex-col flex-wrap ">
             <div className="flex flex-wrap md:flex-row flex-col gap-[14px]">
               <div className="flex gap-1 items-center">
                 <img src="Rectangle 1 (2).svg" alt="" />
